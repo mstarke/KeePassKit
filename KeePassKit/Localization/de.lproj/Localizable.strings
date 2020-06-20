@@ -1,4 +1,4 @@
-/* Action name for adding a customt icon. */
+/* Action name for adding a custom icon. */
 "ADD_CUSTOM_ICON" = "Icon hinzufügen";
 
 /* Error description */
@@ -24,7 +24,7 @@
 "ERROR_AES_DECRYPTION_FAILED" = "AES Entschlüsselung fehlgeschlagen";
 
 /* No comment provided by engineer. */
-"ERROR_AES_ENCRYPTION_FAILED" = "AES Verschlüsselung ist fehlgeschlagen";
+"ERROR_AES_ENCRYPTION_FAILED" = "AES Verschlüsselung fehlgeschlagen";
 
 /* No comment provided by engineer. */
 "ERROR_ATTRIBUTE_KEY_VALIDATION_FAILED" = "Bezeichnung wird bereits verwendet!";
@@ -39,7 +39,7 @@
 "ERROR_DECRYPTION_FAILED" = "Entschlüsseln fehlgeschlagen";
 
 /* No comment provided by engineer. */
-"ERROR_ENCRYPTION_FAILED" = "Verschlüsseln fehlgeschlafen";
+"ERROR_ENCRYPTION_FAILED" = "Verschlüsseln fehlgeschlagen";
 
 /* No comment provided by engineer. */
 "ERROR_GROUP_ELEMENT_MISSING" = "Datenbank-XML enthält kein Group-Element";
@@ -57,10 +57,10 @@
 "ERROR_INTEGRITY_CHECK_FAILED" = "Die Integrität der Datei konnte nicht sichergestellt werden";
 
 /* No comment provided by engineer. */
-"ERROR_INVALID_FIELD_SIZE" = "Datenfeld mit falscher Größe. Password falsch?";
+"ERROR_INVALID_FIELD_SIZE" = "Datenfeld mit falscher Größe. Passwort falsch?";
 
 /* No comment provided by engineer. */
-"ERROR_INVALID_FIELD_TYPE" = "Unbekanntes Datenfeld. Password falsch?";
+"ERROR_INVALID_FIELD_TYPE" = "Unbekanntes Datenfeld. Passwort falsch?";
 
 /* No comment provided by engineer. */
 "ERROR_INVALID_HEADER_FIELD_SIZE" = "Falsche Größe eines Header-Feldes";
@@ -69,7 +69,7 @@
 "ERROR_INVALID_HEADER_FIELD_TYPE" = "Falscher Typ eines Header-Feldes";
 
 /* No comment provided by engineer. */
-"ERROR_INVALID_HEADER_IV_SIZE" = "Falsche Größe des Initalisierungs-Vektor im Header";
+"ERROR_INVALID_HEADER_IV_SIZE" = "Falsche Größe des Initalisierungs-Vektors im Header";
 
 /* No comment provided by engineer. */
 "ERROR_KDB_CORRUPT_TREE" = "Defekter KDB-Baum";
@@ -93,10 +93,13 @@
 "ERROR_KDBX_INVALID_INNER_HEADER_FIELD" = "Der innere Header enthält ein unbekanntes Feld";
 
 /* No comment provided by engineer. */
-"ERROR_KDBX_INVALID_KEY_DERIVATION_DATA" = "Die Daten zur Schlüsselherleitung sind nicht fehlerhaft";
+"ERROR_KDBX_INVALID_KEY_DERIVATION_DATA" = "Die Daten zur Schlüsselherleitung sind fehlerhaft";
 
 /* No comment provided by engineer. */
 "ERROR_KEEPASSFILE_ELEMENT_MISSING" = "Datenbank-XML enthält keine KeePassFile-Elemente";
+
+/* No comment provided by engineer. */
+"ERROR_KEY_DERIVATION_FAILED" = "Schlüsselherleitung fehlgeschlagen";
 
 /* No comment provided by engineer. */
 "ERROR_META_ELEMENT_MISSING" = "Datenbank-XML enthält kein Meta-Element";
@@ -108,10 +111,10 @@
 "ERROR_NO_KEY_DATA" = "Die Schlüsseldatei enthält keine Daten";
 
 /* No comment provided by engineer. */
-"ERROR_PASSWORD_OR_KEYFILE_WRONG" = "Falsche Password und/oder die Schlüsseldatei";
+"ERROR_PASSWORD_OR_KEYFILE_WRONG" = "Falsches Passwort und/oder falsche Schlüsseldatei";
 
 /* No comment provided by engineer. */
-"ERROR_ROOT_ELEMENT_MISSING" = "Datenbank-XML enthält kein Root-Elementen";
+"ERROR_ROOT_ELEMENT_MISSING" = "Datenbank-XML enthält kein Root-Element";
 
 /* Error message for unknown error code */
 "ERROR_UNKNOWN_ERROR_CODE" = "Ein unbekannter Fehler ist aufgetreten";
@@ -144,7 +147,7 @@
 "ERROR_XML_KEYFILE_DATA_PARSING_ERROR" = "Daten des Schlüssels nicht lesbar";
 
 /* No comment provided by engineer. */
-"ERROR_XML_KEYFILE_UNSUPPORTED_VERSION" = "Schlussel-XML-Datei Version wird nicht unterstützt";
+"ERROR_XML_KEYFILE_UNSUPPORTED_VERSION" = "Schlüssel-XML-Datei Version wird nicht unterstützt";
 
 /* No comment provided by engineer. */
 "ERROR_XML_KEYFILE_WITHOUT_DATA_ELEMENT" = "Schlüssel-XML-Datei enhält kein Data-Element";
@@ -171,7 +174,7 @@
 "Illegal parameter supplied to encryption/decryption algorithm" = "Falscher Parameter wurde für Ver-/Entschlüsselung übergeben";
 
 /* Error reason */
-"Input data did not decode or decrypt correctly" = "Eingangsdaten konnten nicht Dekodiert oder korrekt entschlüsselt werden";
+"Input data did not decode or decrypt correctly" = "Eingangsdaten konnten nicht dekodiert oder korrekt entschlüsselt werden";
 
 /* Error reason */
 "Input size to encryption algorithm was not aligned correctly" = "Eingabegröße für Verschlüsselung ist nicht korrekt auf Algorithmus ausgerichtet";
@@ -200,31 +203,31 @@
 /* Action name for setting a custom string value protected */
 "PROTECT_%@" = "%@ schützen";
 
-/* Action name for setting the background color of an enty */
+/* Action name for setting the background color of an entry */
 "SET_BACKGROUND_COLOR" = "Hintergrundfarbe festlegen";
 
 /* Action name for setting value of a custom attribute. Contains %@ placeholder */
-"SET_CUSTOM_ATTTRIBUTE_%@" = "Benutzerdefinierten Werte festlegen";
+"SET_CUSTOM_ATTTRIBUTE_%@" = "Benutzerdefinierten Wert %@ festlegen";
 
-/* Action name for setting the foreground color of an enty */
+/* Action name for setting the foreground color of an entry */
 "SET_FOREGROUND_COLOR" = "Vordergrundfarbe festlegen";
 
-/* Action name for setting the notes of an enty */
+/* Action name for setting the notes of an entry */
 "SET_NOTES" = "Notizen festlegen";
 
-/* Action name for setting the password of an enty */
-"SET_PASSWORD" = "Password festlegen";
+/* Action name for setting the password of an entry */
+"SET_PASSWORD" = "Passwort festlegen";
 
-/* Action name for setting the tags of an enty */
+/* Action name for setting the tags of an entry */
 "SET_TAGS" = "Tags festlegen";
 
-/* Action name for setting the title of an enty */
+/* Action name for setting the title of an entry */
 "SET_TITLE" = "Titel festlegen";
 
-/* Action name for setting the url of an enty */
+/* Action name for setting the url of an entry */
 "SET_URL" = "URL festlegen";
 
-/* Action name for setting the username of an enty */
+/* Action name for setting the username of an entry */
 "SET_USERNAME" = "Benutzername festlegen";
 
 /* Error description */

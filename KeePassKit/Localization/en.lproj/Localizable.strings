@@ -1,4 +1,4 @@
-/* Action name for adding a customt icon. */
+/* Action name for adding a custom icon. */
 "ADD_CUSTOM_ICON" = "Add Custom Icon";
 
 /* Error description */
@@ -203,31 +203,31 @@
 /* Action name for setting a custom string value protected */
 "PROTECT_%@" = "Protect %@";
 
-/* Action name for setting the background color of an enty */
+/* Action name for setting the background color of an entry */
 "SET_BACKGROUND_COLOR" = "Set Background Color";
 
 /* Action name for setting value of a custom attribute. Contains %@ placeholder */
 "SET_CUSTOM_ATTTRIBUTE_%@" = "Set Custom Attribute %@";
 
-/* Action name for setting the foreground color of an enty */
+/* Action name for setting the foreground color of an entry */
 "SET_FOREGROUND_COLOR" = "Set Foreground Color";
 
-/* Action name for setting the notes of an enty */
+/* Action name for setting the notes of an entry */
 "SET_NOTES" = "Set Notes";
 
-/* Action name for setting the password of an enty */
+/* Action name for setting the password of an entry */
 "SET_PASSWORD" = "Set Password";
 
-/* Action name for setting the tags of an enty */
+/* Action name for setting the tags of an entry */
 "SET_TAGS" = "Set Tags";
 
-/* Action name for setting the title of an enty */
+/* Action name for setting the title of an entry */
 "SET_TITLE" = "Set Title";
 
-/* Action name for setting the url of an enty */
+/* Action name for setting the url of an entry */
 "SET_URL" = "Set URL";
 
-/* Action name for setting the username of an enty */
+/* Action name for setting the username of an entry */
 "SET_USERNAME" = "Set Username";
 
 /* Error description */

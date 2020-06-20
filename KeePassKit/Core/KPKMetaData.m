@@ -257,7 +257,7 @@ if( self.updateTiming ) { \
 
 - (void)addCustomIcon:(KPKIcon *)icon atIndex:(NSUInteger)index {
   [[self.tree.undoManager prepareWithInvocationTarget:self] removeCustomIcon:icon];
-  [self.tree.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"ADD_CUSTOM_ICON", nil, [NSBundle bundleForClass:[self class]], @"Action name for adding a customt icon.")];
+  [self.tree.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"ADD_CUSTOM_ICON", nil, [NSBundle bundleForClass:[self class]], @"Action name for adding a custom icon.")];
   index = MIN(_mutableCustomIcons.count, index);
   [self insertObject:icon inMutableCustomIconsAtIndex:index];
   /* trigger a change notification to encourage reavaluation*/

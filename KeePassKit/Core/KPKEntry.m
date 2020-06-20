@@ -624,37 +624,37 @@ NSSet *_protectedKeyPathForAttribute(SEL aSelector) {
 
 - (void)setTitle:(NSString *)title {
   [[self.undoManager prepareWithInvocationTarget:self] setTitle:self.title];
-  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_TITLE", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the title of an enty")];
+  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_TITLE", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the title of an entry")];
   [self _setValue:title forAttributeWithKey:kKPKTitleKey];
 }
 
 - (void)setUsername:(NSString *)username {
   [[self.undoManager prepareWithInvocationTarget:self] setUsername:self.username];
-  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_USERNAME", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the username of an enty")];
+  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_USERNAME", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the username of an entry")];
   [self _setValue:username forAttributeWithKey:kKPKUsernameKey];
 }
 
 - (void)setPassword:(NSString *)password {
   [[self.undoManager prepareWithInvocationTarget:self] setPassword:self.password];
-  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_PASSWORD", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the password of an enty")];
+  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_PASSWORD", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the password of an entry")];
   [self _setValue:password forAttributeWithKey:kKPKPasswordKey];
 }
 
 - (void)setNotes:(NSString *)notes {
   [[self.undoManager prepareWithInvocationTarget:self] setNotes:self.notes];
-  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_NOTES", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the notes of an enty")];
+  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_NOTES", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the notes of an entry")];
   [self _setValue:notes forAttributeWithKey:kKPKNotesKey];
 }
 
 - (void)setUrl:(NSString *)url {
   [[self.undoManager prepareWithInvocationTarget:self] setUrl:self.url];
-  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_URL", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the url of an enty")];
+  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_URL", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the url of an entry")];
   [self _setValue:url forAttributeWithKey:kKPKURLKey];
 }
 
 - (void)setTags:(NSArray<NSString *> *)tags {
   [[self.undoManager prepareWithInvocationTarget:self] setTags:self.tags];
-  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_TAGS", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the tags of an enty")];
+  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_TAGS", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the tags of an entry")];
   [self.tree _unregisterTags:_tags];
   _tags = tags ? [[NSArray alloc] initWithArray:tags copyItems:YES] : nil;
   [self.tree _registerTags:_tags];
@@ -662,13 +662,13 @@ NSSet *_protectedKeyPathForAttribute(SEL aSelector) {
 
 - (void)setForegroundColor:(NSUIColor *)foregroundColor {
   [[self.undoManager prepareWithInvocationTarget:self] setForegroundColor:self.foregroundColor];
-  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_FOREGROUND_COLOR", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the foreground color of an enty")];
+  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_FOREGROUND_COLOR", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the foreground color of an entry")];
   _foregroundColor = foregroundColor;
 }
 
 - (void)setBackgroundColor:(NSUIColor *)backgroundColor {
   [[self.undoManager prepareWithInvocationTarget:self] setBackgroundColor:self.backgroundColor];
-  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_BACKGROUND_COLOR", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the background color of an enty")];
+  [self.undoManager setActionName:NSLocalizedStringFromTableInBundle(@"SET_BACKGROUND_COLOR", nil, [NSBundle bundleForClass:[self class]], @"Action name for setting the background color of an entry")];
   _backgroundColor = backgroundColor;
 }
 
